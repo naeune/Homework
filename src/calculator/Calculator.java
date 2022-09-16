@@ -44,7 +44,6 @@ public class Calculator {
 							System.out.println("피연산자는 0이 아닌 숫자여야합니다.");
 						} else {
 							double z = Math.round(((double)x / y) * 1000) / 1000.0;
-							// Math.round((double)(x/y) * 100) / 100.0; 
 							System.out.println(z);
 						}
 					}
